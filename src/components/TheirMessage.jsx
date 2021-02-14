@@ -6,7 +6,7 @@ const TheirMessage = ({ lastMessage, message }) => {
             {isFirstMessageByUser && (
                 <div 
                     className="message-avatar"
-                    style={{backgroundIMage: `url(${message?.sender?.avatar})`}}
+                    style={{backgroundImage: `url(${message?.sender?.avatar})`}}
                 />
             )}
             {
